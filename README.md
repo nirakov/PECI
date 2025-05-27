@@ -2,12 +2,14 @@
 
 ## Final project for the Computer Engineering degree – Group 13 (University of Aveiro)
 
-#Overview
+# Overview
 The Heart Box is a modular system for real-time physiological monitoring, designed for indoor cycling sessions (spinning classes) and stationary bike training. It collects heart rate and body temperature data using PPG sensors, smartwatches, and thermal cameras. The system integrates an Android app, smartwatch app, ESP32 microcontrollers, and a cloud backend for both individual and group usage.
 
-##[Webiste](https://carolineribeiro19.github.io/) ##[Video](https://carolineribeiro19.github.io/)
+## [Webiste](https://carolineribeiro19.github.io/) 
 
-#Team
+## [Video](https://carolineribeiro19.github.io/)
+
+# Team
 [Caroline Ribeiro](https://github.com/CarolineRibeiro19)
 [João Rodrigues](https://github.com/joaoamrodrigues)
 [Júlia Abrantes](https://github.com/JuliaAbrantes)
@@ -16,7 +18,7 @@ The Heart Box is a modular system for real-time physiological monitoring, design
 [Theo Paschôa](https://github.com/thpaschoa)
 [Supervisor: Prof. José Maria Fernandes](https://www.ua.pt/pt/p/10319434)
 
-#Technologies
+# Technologies
 Microcontrollers: ESP32, ESP32-CAM
 Sensors: MLX90640 (thermal camera), PPG (DFRobot)
 Mobile App: Android (Kotlin, Jetpack Compose)
@@ -25,17 +27,17 @@ Cloud Platform: Microsoft Azure (Docker-based backend)
 Backend Stack: Node-RED, InfluxDB, Grafana
 Other: OpenCV, DataStore, RTC, Docker
 
-#Project Structure
+# Project Structure
 PECI/
-├── ESP/ # ESP32 source code (PPG & MLX90640)
-├── HeartRateMonitor/ # Android thermal & heart rate monitor demo
-├── PeciMobileApp/ # Main Android application (Jetpack Compose)
+├── ESP/ ESP32 source code (PPG & MLX90640)
+├── HeartRateMonitor/ smartwatch android app
+├── PeciMobileApp/ Main Android application (Jetpack Compose) - smartphone
 ├── website/ # Public-facing site with project info
 └── README.md
 
 #Features
 
-##Android App
+## Android App
 User profile setup with automatic HRmax estimation
 Real-time BPM and temperature display
 Heart rate zone calculation and tracking
@@ -44,33 +46,32 @@ MQTT publishing to cloud backend
 Local data persistence (offline mode)
 Robust auto-reconnection for BLE/WebSocket
 
-##Smartwatch App
+## Smartwatch App
 Real-time heart rate acquisition using PPG
 BLE broadcasting to Android app
 Minimalistic circular UI with Jetpack Compose
 Power-efficient and responsive design
 
-##Cloud & Visualization
+## Cloud & Visualization
 Azure VM with Dockerized services: Mosquitto, Node-RED, InfluxDB, Grafana
 MQTT topics
 Dynamic dashboards per user/group with Grafana
 Real-time visualization for instructors and teams
 
-#Use Cases
-##Individual:
+# Use Cases
+## Individual:
 Home training with BLE-only feedback and local analysis
-##Group:
+## Group:
 Gym/spinning classes with real-time instructor dashboards and team rankings
 
 #Getting Started
 
-# Requirements
-
+# Requirements: 
 Android Studio
 ESP32 + PPG sensor and/or MLX90640
 USB power banks
 MQTT Broker (Mosquitto)
 Docker + Azure VM or local backend
 
-#License
+# License
 This project was developed for academic purposes and is licensed under the MIT License.
