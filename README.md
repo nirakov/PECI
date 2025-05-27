@@ -27,10 +27,10 @@ The Heart Box is a modular system for real-time physiological monitoring, design
 
 # Project Structure
 * PECI/
-* ├── ESP/ ESP32 source code (PPG & MLX90640)
-* ├── HeartRateMonitor/ smartwatch android app
-* ├── PeciMobileApp/ Main Android application (Jetpack Compose) - smartphone
-* ├── website/ # Public-facing site with project info
+* ├── ESP (ESP32 source code PPG & MLX90640 )
+* ├── HeartRateMonitor (smartwatch android app)
+* ├── PeciMobileApp (Main smartphone Android application )
+* ├── website 
 * └── README.md
 
 ## Features
