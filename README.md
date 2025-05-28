@@ -5,7 +5,7 @@
 #### Overview: 
 The Heart Box is a modular system for real-time physiological monitoring, designed for indoor cycling sessions (spinning classes) and stationary bike training. It collects heart rate and body temperature data using PPG sensors, smartwatches, and thermal cameras. The system integrates an Android app, smartwatch app, ESP32 microcontrollers, and a cloud backend for both individual and group usage.
 
-#### [Webiste](https://carolineribeiro19.github.io/THB)  |  [Video](https://youtu.be/QngTyu7FYAE)
+#### [Webiste](https://carolineribeiro19.github.io/THB)  |  [Video](https://youtu.be/Mz80MJ6CzUw)
 
 ## Team
 * [Caroline Ribeiro](https://github.com/CarolineRibeiro19)
